@@ -1,0 +1,17 @@
+<resources>
+    <string  name="app_name">BLOG SITE </string>
+    <string name="welcome">WELCOME TO BLOG SITE</string>
+    <string name="represent_blog_picture">REPRESENT BLOG PICTURE</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="log_in">log in</string>
+
+
+    <!---->
+
+
+
+
+
+
+</resources>
