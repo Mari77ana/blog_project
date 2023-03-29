@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
+apply plugin: 'kotlin-kapt'
 
 android {
     namespace 'com.example.blog_project'
@@ -36,6 +37,13 @@ android {
 }
 
 dependencies {
+
+    implementation "androidx.room:room-runtime:2.5.1"
+    androidTestImplementation "androidx.room:room-testing:2.5.1"
+    kapt "androidx.room:room-compiler:2.5.1"
+    kapt "androidx.room:room-compiler:2.5.1"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1"
+    //_______________________--___________--______________
     implementation 'androidx.fragment:fragment-ktx:1.5.6'
     implementation 'androidx.activity:activity-ktx:1.7.0'
 //--------------------------------------------------------------
